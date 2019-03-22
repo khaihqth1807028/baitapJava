@@ -30,6 +30,11 @@ public class foodController extends ApplicationController {
         list.add(foods1);
     }
 
+    @Override
+    public void printFood() {
+
+    }
+
 //    @Override
 //    public void printGame() {
 //        System.out.printf("%15s | %15s | %15s | %15s\n", "ten game"," ngay phat hanh","mo ta", "gia");
@@ -38,5 +43,5 @@ public class foodController extends ApplicationController {
 //            System.out.printf("%15s | %15s | %15s | %15s\n",
 //                    game.getName(),  game.getID(), game.getMota(), game.getNgaytao());
 //        }
-    }
+
 }
